@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticalTestOcw">
         <activity
-            android:name=".MainActivity"
+            android:name=".PracticalTestOcwSecondaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticalTest01MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
